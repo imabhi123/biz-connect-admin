@@ -1,0 +1,49 @@
+@font-face {
+  font-family: 'CircularStd';
+  font-weight: 400;
+  font-style: normal;
+  src: local('CircularStd'), url('CircularStd-Book.otf') format('opentype');
+}
+@font-face {
+  font-family: 'CircularStd';
+  font-weight: 500;
+  font-style: normal;
+  src: local('CircularStd'), url('CircularStd-Medium.otf') format('opentype');
+}
+@font-face {
+  font-family: 'CircularStd';
+  font-weight: 700;
+  font-style: normal;
+  src: local('CircularStd'), url('CircularStd-Bold.otf') format('opentype');
+}
+
+/* @font-face {
+  font-family: 'CircularStd';
+  font-weight: 400;
+  font-style: italic;
+  src: local('CircularStd'), url('POORICH.TTF') format('opentype');
+}
+@font-face {
+  font-family: 'CircularStd';
+  font-weight: 500;
+  font-style: italic;
+  src: local('CircularStd'), url('POORICH.TTF') format('opentype');
+}
+@font-face {
+  font-family: 'CircularStd';
+  font-weight: 700;
+  font-style: italic;
+  src: local('CircularStd'), url('POORICH.TTF') format('opentype');
+} */
+
+.no_scroll::-webkit-scrollbar{
+  display: none;
+}
+
+.MuiTableCell-root{
+  height: 100% !important;
+}
+
+.public-DraftStyleDefault-block{
+  margin: 0 !important;
+}
